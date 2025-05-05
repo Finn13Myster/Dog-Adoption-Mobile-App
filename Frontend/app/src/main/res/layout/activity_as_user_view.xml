@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foreground="@drawable/dog_paw_print_border__clip_art__page_border__and_vector_graphics_removebg_preview">
+
+    <Button
+        android:id="@+id/adoptButton"
+        android:layout_width="124dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="604dp"
+        android:backgroundTint="#FFD362"
+        android:drawableTint="#000000"
+        android:fontFamily="casual"
+        android:text="Adopt"
+        android:textColor="#191919"
+        android:textSize="20sp"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="128dp"
+        android:layout_height="136dp"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="524dp"
+        android:rotation="-11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/images_removebg_preview__1_" />
+
+    <ListView
+        android:id="@+id/dogListView"
+        android:layout_width="341dp"
+        android:layout_height="531dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F287"
+    android:backgroundTint="#FFECA7"
+    tools:context=".AsAdminViewForAdd">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="145dp"
+        android:layout_height="151dp"
+        android:layout_marginTop="594dp"
+        android:layout_marginEnd="279dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pngtree_corner_border_gold_png_image_6352668__1__removebg_preview" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="149dp"
+        android:layout_height="151dp"
+        android:layout_marginStart="273dp"
+        android:layout_marginTop="594dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/corner" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="352dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="13dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:inputType="text"
+        android:text="@string/title"
+        android:textAlignment="center"
+        android:textColor="#FFC107"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="casual"
+        android:text="@string/Adopt"
+        android:textAllCaps="true"
+        android:textColor="#FFC107"
+        android:textColorHighlight="#ED0909"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/addDogName"
+        android:layout_width="212dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="154dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="Dog Name"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/addDog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="154dp"
+        android:layout_marginTop="356dp"
+        android:backgroundTint="#FFD362"
+        android:fontFamily="casual"
+        android:text="Add Dog"
+        android:textColor="#454545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/addDogImageLink"
+        android:layout_width="213dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="226dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="Dog Image Link"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="235dp"
+        android:layout_height="243dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="434dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/shiba_inu__1_" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

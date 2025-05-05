@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFECD3"
+    android:foreground="@drawable/dog_paw_print_border__clip_art__page_border__and_vector_graphics_removebg_preview">
+
+    <ListView
+        android:id="@+id/deleteListView"
+        android:layout_width="347dp"
+        android:layout_height="531dp"
+        android:layout_marginTop="40dp"
+        android:background="#EFECD3"
+        app:layout_constraintBottom_toTopOf="@+id/deleteDogButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.463">
+
+    </ListView>
+
+    <Button
+        android:id="@+id/deleteDogButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="608dp"
+        android:backgroundTint="#FFD362"
+        android:ellipsize="none"
+        android:fontFamily="casual"
+        android:text="Delete Dog"
+        android:textColor="#191919"
+        app:cornerRadius="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="66dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="599dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/transparent_cute_dog_illustration_fluffy_small_dog_wooden_door_cute_cartoon_dog_peeks_from_behind_locked_door6578368f8383f7_2551327317023771035387_removebg_preview" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
