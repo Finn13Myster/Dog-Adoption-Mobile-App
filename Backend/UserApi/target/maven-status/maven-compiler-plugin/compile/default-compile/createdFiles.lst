@@ -1,0 +1,13 @@
+com\adoption\backend\repository\UserRepository.class
+com\adoption\backend\services\AdminService.class
+com\adoption\backend\repository\DogRepository.class
+com\adoption\backend\services\UserService.class
+com\adoption\backend\controller\DogController.class
+com\adoption\backend\repository\AdminRepository.class
+com\adoption\backend\services\DogService.class
+com\adoption\backend\UserApiApplication.class
+com\adoption\backend\controller\AdminController.class
+com\adoption\backend\model\Admin.class
+com\adoption\backend\model\Dog.class
+com\adoption\backend\model\User.class
+com\adoption\backend\controller\UserController.class
